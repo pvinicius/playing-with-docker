@@ -1,0 +1,1 @@
+docker run --name mymongodb -e MONGO_INITDB_ROOT_USERNAME=docker_usr -e MONGO_INITDB_ROOT_PASSWORD=docker_pwd -e MONGO_INITDB_DATABASE=curso_docker -d mongo
