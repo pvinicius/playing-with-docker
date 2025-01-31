@@ -1,0 +1,12 @@
+name: prod pipeline
+on:
+  push:
+    branches: ["development"]
+  workflow_dispatch:
+jobs:
+  primeiro-job:
+    name: "Meu Primeiro Job"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "primeira acao"
+        run: echo "Hello World!!!"
